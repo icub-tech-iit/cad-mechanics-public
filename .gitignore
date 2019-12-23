@@ -1,0 +1,33 @@
+*
+
+# Accepted files format
+!.gitattributes
+!.gitignore
+!*.1
+!*.cfg
+!*.dmt
+!*.dtl
+!*.fmt
+!*.map
+!*.md
+!*.mtl
+!*.pdf
+!*.pnt
+!*.pro
+!*.ps1
+!*.qry
+!*.scene
+!*.scl
+!*.ui
+!*.md
+!*.json
+!*.yml
+!*/
+
+# Accepted files
+!config/smlink.dat
+
+# Specific files or folders to be ignored
+/debug_feat_recognition.txt.1
+config/trail/trail*
+config/search_path_custom.pro

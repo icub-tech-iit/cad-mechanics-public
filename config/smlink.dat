@@ -1,0 +1,6 @@
+NAME SimMechanics Link
+STARTUP dll
+EXEC_FILE C:\Program Files\MATLAB\R2015a\bin\win64\cl_proe2sm.dll
+TEXT_DIR C:\Program Files\MATLAB\R2015a\toolbox\physmod\smlink\cad_systems\proe\text
+UNICODE_ENCODING false
+END
