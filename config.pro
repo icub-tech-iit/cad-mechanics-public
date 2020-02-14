@@ -334,4 +334,4 @@ template_boardpart .\config\standard_files\start_part_ecad.prt
 modelcheck_dir .\config\modelcheck
 
 ! SimMechanics link
-!toolkit_registry_file .\config\mathlab\creolink.dat
+!toolkit_registry_file .\config\matlab\creolink.dat

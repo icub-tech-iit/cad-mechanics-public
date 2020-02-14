@@ -33,11 +33,9 @@
 !*.mcs
 !*.mcr
 !*.txt
-# Accepted matlab files extension
-!*.dat
 
 # Accepted files
-!config/smlink.dat
+!config/matlab/creolink.dat
 
 # Specific files or folders to be ignored
 /debug_feat_recognition.txt.1
