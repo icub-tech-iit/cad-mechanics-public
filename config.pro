@@ -11,6 +11,7 @@
 !                                       "ecad_export_cuts_as_holes" set as "no"
 !                                       "nmgr_outdated_mp" set as "do_not_show"
 !   04    2019/09/24   Savoldi   modified default template for ECAD feature (asm and prt)
+!   05    2020/02/14   Savoldi   Added modelcheck path
 
 !
 !
@@ -328,3 +329,6 @@ ecad_export_cuts_as_holes no
 nmgr_outdated_mp do_not_show
 template_new_ecadasm .\config\standard_files\start_asm_ecad.asm
 template_boardpart .\config\standard_files\start_part_ecad.prt
+
+! Modelcheck strings:
+modelcheck_dir .\config\modelcheck

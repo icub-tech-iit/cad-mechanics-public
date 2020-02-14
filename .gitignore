@@ -1,6 +1,6 @@
 *
 
-# Accepted files format
+# Accepted files extension
 !.gitattributes
 !.gitignore
 !*.1
@@ -24,6 +24,16 @@
 !*.yml
 !*.pptx
 !*/
+# Accepted modelcheck files extension
+!*.mcc
+!*.mc
+!*.gmc
+!*.mch
+!*.mcn
+!*.mcs
+!*.mcr
+!*.txt
+
 
 # Accepted files
 !config/smlink.dat
