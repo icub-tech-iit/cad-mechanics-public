@@ -35,10 +35,10 @@ MODE_UPDATE	YN	Y	Y	Y	Y
 MC_METRICS	YN	Y	Y	Y	Y
 
 # Directory ModelCHECK will write reports
-DIR_REPORT	C:\Demos\Creo\ModelCheck\ModelCHECK_Data\mc_reports
+DIR_REPORT	./output_dir
 
 # Directory ModelCHECK will write metrics flat file
-DIR_METRICS C:\Demos\Creo\ModelCheck\ModelCHECK_Data\mc_metrics
+DIR_METRICS ./output_dir
 
 # Directory ModelCHECK will read shape indexing files
 DIR_MC_DUP_READ	C:\Demos\Creo\ModelCheck\ModelCHECK_Data\config\mc_dup_read
