@@ -11,7 +11,7 @@
 !                                       "ecad_export_cuts_as_holes" set as "no"
 !                                       "nmgr_outdated_mp" set as "do_not_show"
 !   04    2019/09/24   Savoldi   modified default template for ECAD feature (asm and prt)
-!   05    2020/02/14   Savoldi   Added modelcheck path
+!   05    2020/02/14   Savoldi   Added modelcheck path and matlab string
 
 !
 !
@@ -332,3 +332,6 @@ template_boardpart .\config\standard_files\start_part_ecad.prt
 
 ! Modelcheck strings:
 modelcheck_dir .\config\modelcheck
+
+! SimMechanics link
+!toolkit_registry_file .\config\mathlab\creolink.dat

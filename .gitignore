@@ -33,7 +33,8 @@
 !*.mcs
 !*.mcr
 !*.txt
-
+# Accepted matlab files extension
+!*.dat
 
 # Accepted files
 !config/smlink.dat
