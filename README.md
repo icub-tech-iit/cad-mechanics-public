@@ -1,4 +1,5 @@
-# cad-mechanics-public
+Cad Mechanics Public
+====================
 
 This repository mirrors our internal private CAD repository, exposing only a subset that we aim to make public.
 
