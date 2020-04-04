@@ -42,3 +42,4 @@
 config/trail/trail*
 config/search_path_custom.pro
 *.bom.1
+*.log.1
