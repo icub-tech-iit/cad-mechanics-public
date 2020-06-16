@@ -54,7 +54,7 @@ PARAMETERS =
 {
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 7.800000e+00 g/cm^3
+  Default = 1.150000e+00 g/cm^3
   Access = Full
 },
 {
@@ -66,7 +66,7 @@ PARAMETERS =
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 2.100000e+02 GPa
+  Default = 3.000000e+00 GPa
   Access = Full
 }
 
