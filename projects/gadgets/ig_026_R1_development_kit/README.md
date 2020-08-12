@@ -1,8 +1,7 @@
 # R1 development kit
 This folder contains different gadgets that can be used to enhance the capabilities of the R1 robot for development and testing purposes.
 
-## ig_026_g_020
-This assembly contains the face display divided into two parts.
-
-## ig_026_g-001
-This assembly contains the support to connect an additional sensor (e.g. Intel RealSense) over the robot head.
+| GADGET | ASSEMBLY IMAGE | DESCRIPTION |
+| :----: | :------------: | :---------- |
+| **ig_026_g_020** | ![image](https://user-images.githubusercontent.com/8970230/90025299-389a0d00-dcb6-11ea-9bf3-8fc63e28c3b8.png) | This assembly contains the face display divided into two parts.|
+|  **ig_026_g_001** | ![image](https://user-images.githubusercontent.com/8970230/90024601-56b33d80-dcb5-11ea-98d5-b226f60cf74b.png) | This assembly contains the support to connect an additional sensor (e.g. Intel RealSense) over the robot head. |
