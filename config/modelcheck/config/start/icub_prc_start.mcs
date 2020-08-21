@@ -1,8 +1,12 @@
-! Demonstration Configuration file for ModelCHECK version 2001
-! This file is to be used with the ModelCHECK wheel Pro/ENGINEER demo parts.
-! Updated 29/01/2020
+! iCubTech PTC Creo ModelCHECK configuration file.
 !
-# PART MODE START PART REPORT CONFIGURATION  
+!  Rev.| Author               | Description                             | Date        |
+!  0   | Maggiolo (DEDAGROUP) | First Emission                          | 07 Jan 2020 |
+!  1   | Fiorio (IIT)         | Refactored to use ModelCHECK for CAD CI | 01 Sep 2020 |
+!
+!
+
+# PART MODE START PART REPORT CONFIGURATION
 PRT_DATUM_CSYS	CSYS 1
 PRT_DATUM_PLANE	TOP 2
 PRT_DATUM_PLANE	RIGHT 3
@@ -43,7 +47,7 @@ PRT_PARAM_UNWANTED    VOLUME
 
 PRT_COMMENT     /* settaggio parametro materiale=materiale assegnato
 PRT_RELATION	material=ptc_material_name
-PRT_COMMENT     /* needed for exporting BOM with old parameters 
+PRT_COMMENT     /* needed for exporting BOM with old parameters
 PRT_RELATION	denominazione=description
 
 PRT_REL_UNWANTED   Peso=mp_mass("")

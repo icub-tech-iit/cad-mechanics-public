@@ -1,8 +1,19 @@
-! Demonstration Configuration file for ModelCHECK version 2000i2
-! This file is to be used with the ModelCHECK wheel Pro/ENGINEER demo parts.
-! Updated 02/02/00.
+! iCubTech PTC Creo ModelCHECK configuration file.
 !
-# SET CONFIG FILE DEFAULT
+!  Rev.| Author               | Description                             | Date        |
+!  0   | Maggiolo (DEDAGROUP) | First Emission                          | 07 Jan 2020 |
+!  1   | Fiorio (IIT)         | Refactored to use ModelCHECK for CAD CI | 01 Sep 2020 |
+!
+
+# SET CONFIG FILE
+IF (TIPO EQ COMM) OR (TIPO EQ FAST) OR (TIPO EQ GEAR) OR (TIPO EQ MOTR) OR (TIPO EQ BEAR) OR (TIPO EQ TRAS) config=(check/icub_checks.mch)(start/icub_prc_start.mcs)(constant/mm.mcn)
+IF ( OBSOLETE EQ YES ) config=(check/icub_checks.mch)(start/icub_obs_start.mcs)(constant/mm.mcn)
+IF ( DATE_CREATED GTE 20200901 ) config=(check/icub_checks.mch)(start/icub_start.mcs)(constant/mm.mcn)
+IF ( MODEL_UNIT EQ INCH ) config=(check/icub_checks_old.mch)(start/icub_start_old.mcs)(constant/inch.mcn)
+ELSE  config=(check/icub_checks_old.mch)(start/icub_start_old.mcs)(constant/mm.mcn)
+
+
+# SET CONFIG FILE DEFAULT - TO DELETE ALL
 #IF (MODEL EQ fam) config=(check/check1.mch)(start/sample_start.mcs)(constant/constant1.mcn)
 #IF (MODEL_NAME EQ STD_*) config=(check/check1.mch)(start/sample_start.mcs)(constant/constant1.mcn)
 #IF (EMPTY EQ ??ll) config=(check/check1.mch)(start/sample_start.mcs)(constant/Constant1.mcn)
@@ -14,13 +25,6 @@
 #IF (MODEL_UNIT EQ MM) config=(check/default_checks.mch)(start/default_start.mcs)(constant/mm.mcn)
 #IF ( NOSTART )  config=(check/simple_checks.mch)(start/nostart.mcs)(constant/inch.mcn)
 #
-# SET CONFIG FILE CUSTOM
-IF (TIPO EQ COMM) OR (TIPO EQ FAST) OR (TIPO EQ GEAR) OR (TIPO EQ MOTR) OR (TIPO EQ BEAR) OR (TIPO EQ TRAS) config=(check/icub_checks.mch)(start/icub_prc_start.mcs)(constant/mm.mcn)
-IF ( OBSOLETE EQ YES ) config=(check/icub_checks.mch)(start/icub_obs_start.mcs)(constant/mm.mcn)
-IF ( MODEL_UNIT EQ INCH )  config=(check/icub_checks.mch)(start/icub_start.mcs)(constant/inch.mcn)
-IF ( MODEL_UNIT EQ MM )  config=(check/icub_checks.mch)(start/icub_start.mcs)(constant/mm.mcn)
-ELSE  config=(check/icub_checks.mch)(start/icub_start.mcs)(constant/mm.mcn)
-
 # OVERRIDE CHECKS
 #IF ( NOCHECK ) NOCHECK
 #IF ( MODEL_SIZE EQ large ) SHARP_EDGES=No
