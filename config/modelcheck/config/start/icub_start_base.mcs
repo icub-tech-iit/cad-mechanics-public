@@ -6,11 +6,6 @@
 !
 
 # PART INFORMATION
-PRT_MODEL_NAME        EQ    LIST_MODEL_NAMES
-#PRT_MODEL_NAME       NEQ          ALL_NUMBERS
-#PRT_MODEL_NAME       LTE          LENGTH_15
-#PRT_MODEL_NAME       EQ           A_*
-
 PRT_PARAM_UNWANTED    MASS
 PRT_PARAM_UNWANTED    PESO
 PRT_PARAM_UNWANTED    VOLUME
@@ -41,8 +36,8 @@ STD_DRW_DTL_FILE	DEFAULT ..\..\std_fmt.dtl
 PRT_TEMPLATE            ..\..\standard_files\start_part.prt
 ASM_TEMPLATE            ..\..\standard_files\start_asm.asm
 
-CUSTOM_CHECKS_FILE	text/custom.txt
-
 STD_USER_LIST_FILE	text/icub_lists.txt
 
 MC_REGEN_CONFIG_FILE	text/mc_regen.mcr
+
+#CUSTOM_CHECKS_FILE	text/custom.txt

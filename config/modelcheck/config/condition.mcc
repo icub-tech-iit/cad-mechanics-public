@@ -6,10 +6,10 @@
 !
 
 # SET CONFIG FILE
-IF (TIPO EQ COMM) OR (TIPO EQ FAST) OR (TIPO EQ GEAR) OR (TIPO EQ MOTR) OR (TIPO EQ BEAR) OR (TIPO EQ TRAS) config=(check/icub_checks.mch)(start/icub_prc_start.mcs)(constant/mm.mcn)
 IF ( OBSOLETE EQ YES ) config=(check/icub_checks.mch)(start/icub_obs_start.mcs)(constant/mm.mcn)
-IF ( DATE_CREATED GTE 20200901 ) config=(check/icub_checks.mch)(start/icub_start.mcs)(constant/mm.mcn)
+IF (TIPO EQ COMM) OR (TIPO EQ FAST) OR (TIPO EQ GEAR) OR (TIPO EQ MOTR) OR (TIPO EQ BEAR) OR (TIPO EQ TRAS) config=(check/icub_checks.mch)(start/icub_prc_start.mcs)(constant/mm.mcn)
 IF ( MODEL_UNIT EQ INCH ) config=(check/icub_checks_old.mch)(start/icub_start_old.mcs)(constant/inch.mcn)
+IF ( DATE_CREATED GTE 20200901 ) config=(check/icub_checks.mch)(start/icub_start.mcs)(constant/mm.mcn)
 ELSE  config=(check/icub_checks_old.mch)(start/icub_start_old.mcs)(constant/mm.mcn)
 
 
