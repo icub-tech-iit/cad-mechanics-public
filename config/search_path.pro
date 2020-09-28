@@ -8,6 +8,7 @@
 !   01    2019/09/23   savoldi   start migration to github
 !   02    2019/10/20   fiorio    add "temporary paths" section
 !   03    2019/11/25   savoldi   migration to mechatronics of all ELTR folder
+!   04    2020/09/28   savoldi   added eletronics-PCA
 
 !
 !
@@ -47,6 +48,7 @@ search_path ".\projects\common\ic_007_ft45_M3"
 search_path ".\projects\common\ic_008_ft45_M4"
 !
 search_path ".\projects\eletronics-boards"
+search_path ".\projects\eletronics-PCA"
 !
 search_path ".\projects\gadgets"
 search_path ".\projects\gadgets\rc_090_stand"
