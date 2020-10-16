@@ -12,6 +12,6 @@ To correctly manage the large files stored within this repository, follow the [i
 | PTC Creo Parametric | 6.0 and above |
 
 ## ℹ [Wiki](../../wiki)
-Read up our [wiki](../../wiki) to access further documentation.
+Consult our [wiki](../../wiki) to access further documentation.
 
 [1]: https://help.github.com/en/articles/installing-git-large-file-storage
