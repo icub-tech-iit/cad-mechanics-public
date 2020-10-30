@@ -9,7 +9,7 @@ To correctly manage the large files stored within this repository, follow the [i
 
 | Software | Minimum Version Required |
 | :------- | :----------------------: |
-| PTC Creo Parametric | 6.0 and above |
+| PTC Creo Parametric | 7.0 and above |
 
 ## ℹ [Wiki](../../wiki)
 Consult our [wiki](../../wiki) to access further documentation.
