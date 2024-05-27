@@ -1,0 +1,2 @@
+Currently working and generating some IC_033 aliases in
+https://github.com/icub-tech-iit/study-icub-headedge/tree/mech/neck_design
