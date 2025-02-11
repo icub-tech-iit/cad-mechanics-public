@@ -1,2 +1,0 @@
-Currently working and generating some IC_034 aliases in
-https://github.com/icub-tech-iit/study-icub-headedge/tree/mech/head_design
