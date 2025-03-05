@@ -38,6 +38,9 @@
 # Accepted files
 !config/matlab/creolink.dat
 
+# Licensing for the public part
+!**/LICENSE
+
 # Specific files or folders to be ignored
 /debug_feat_recognition.txt.1
 config/trail/trail*
