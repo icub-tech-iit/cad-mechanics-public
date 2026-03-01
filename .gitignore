@@ -9,6 +9,7 @@
 !*.docx
 !*.dmt
 !*.dtl
+!*.dxf
 !*.fmt
 !*.json
 !*.map
